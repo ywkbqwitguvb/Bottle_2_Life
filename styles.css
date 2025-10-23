@@ -25,6 +25,7 @@ body {
     height: 20px;
 }
 
+
 .logo-text {
     font-size: 1.5rem;
     font-weight: bold;
@@ -75,13 +76,17 @@ body {
 }
 
 .tag {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     background-color: #e6f7ef;
     color: #16a34a;
-    padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
-    margin-bottom: 1.5rem;
+}
+
+.tag img{
+    height: 60px;
+    margin-right: 8px;
 }
 
 .hero h1 {
